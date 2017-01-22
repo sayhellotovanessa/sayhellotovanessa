@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article>
+
+    <header class="section-padding--lg mast">
+      <a class="nav nav--white" href="{{ site.baseurl }}/">
+        <i class="fa fa-lg fa-arrow-left"></i>
+        <span>Back to Home</span>
+      </a>
+      <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
+      <div class="mast__container">
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+      </div>
+    </header>
+
+  <div>
+    <section class="section-padding post" itemprop="articleBody">
+      {{ content }}
+    </section>
+  </div>
+
+</article>
+
+{% include archive-link.html %}

@@ -1,0 +1,33 @@
+# Site settings
+email: sayhellotovanessa@gmail.com
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: Vanessa Guedes
+description: articles about development, tech stuff, geek trash and inspirational memes
+url: ""
+twitter_username: nessoila
+default_img:
+
+# Profile settings
+name: Vanessa Guedes
+profile_img: https://avatars0.githubusercontent.com/u/1504260
+profile: Vanessa lives in Stockholm, Sweden. She was born in Porto Alegre, Brazil, where she started enjoying writing instructions to computeres and watching them do precisely the opposite. She also learnt to write about herself in the third person.
+social: instagram.com/sayhellotovanessa
+github: https://github.com/sayhellotovanessa
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]

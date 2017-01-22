@@ -1,0 +1,142 @@
+/**
+ * Base Variables
+ */
+$font-header: 'Space Mono', monospace;
+$font-body: 'Inconsolata', monospace;
+$font-post: 'Lora', serif;
+
+$color-alpha: #0d7377;
+$color-alpha--light: #14ffec;
+$color-bright: #913175;
+$color-brigther: #fe9797;
+
+$color-black: #323232;
+$color-grey: #f8f9f9;
+$color-white: #fff;
+
+$mq-xs: 20em;
+$mq-sm: 30em;
+$mq-md: 54em;
+$mq-lg: 64em;
+$mq-xl: 76.5em;
+$mq-xxl: 114em;
+
+/**
+ * Base Settings/Overwrite Normalize
+ */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-body;
+  font-feature-settings: 'liga' 0;
+  font-size: 100%;
+  line-height: 1.6;
+
+  @media (min-width: $mq-xs) {
+    font-size: 102.5%;
+  }
+
+  @media (min-width: $mq-sm) {
+    font-size: 105%;
+  }
+
+  @media (min-width: $mq-md) {
+    font-size: 107.5%;
+  }
+
+  @media (min-width: $mq-lg) {
+    font-size: 110%;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: 115%;
+  }
+
+  @media (min-width: $mq-xxl) {
+    font-size: 125%;
+  }
+}
+
+h1, h2 {
+  margin: 0;
+
+  font-family: $font-header;
+}
+
+h1 {
+  $fontSize: 3em;
+
+  @media (min-width: $mq-md) {
+    font-size: $fontSize;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: $fontSize + 0.5em;
+  }
+}
+
+p {
+  margin: 0 0 0.75em;
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color-alpha;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+/**
+ * Text Selection
+ */
+::selection {
+  color: $color-white;
+  background-color: $color-alpha;
+  text-shadow: none;
+}
+
+.fa {
+  font-size: 36px !important;
+  color: $color-white;
+}
+
+.pages-list {
+  margin-top: 200px;
+
+  li {
+    padding: .5em;
+    border: 3px solid;
+    transition: all 0.4s ease-in-out;
+    a {
+      color: $color-white;
+    }
+  }
+  li:hover {
+    background-color: $color-bright;
+    color: $color-grey;
+  }
+}
