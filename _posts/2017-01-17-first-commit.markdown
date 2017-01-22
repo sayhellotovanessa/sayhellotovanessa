@@ -5,7 +5,7 @@ date: 2017-01-17
 categories:
   - Lists
 description:
-image: ../img/greenpurplesky.jpg
+image: https://sayhellotovanessa.github.io/sayhellotovanessa/img/greenpurplesky.jpg
 image-sm:
 ---
 
