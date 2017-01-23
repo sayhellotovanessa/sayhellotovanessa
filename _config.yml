@@ -16,8 +16,9 @@ default_img:
 name: Vanessa Guedes
 profile_img: https://avatars0.githubusercontent.com/u/1504260
 profile: Vanessa lives in Stockholm, Sweden. She was born in Porto Alegre, Brazil, where she started enjoying writing instructions to computeres and watching them do precisely the opposite. She also learnt to write about herself in the third person.
-social: instagram.com/sayhellotovanessa
-github: https://github.com/sayhellotovanessa
+social: 
+  github: https://github.com/sayhellotovanessa
+  twitter: https://github.com/sayhellotovanessa
 
 # Build settings
 include: ["_categories"]
