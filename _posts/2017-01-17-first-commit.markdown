@@ -5,12 +5,12 @@ date: 2017-01-17
 categories:
   - Lists
 description:
-image: https://sayhellotovanessa.github.io/sayhellotovanessa/img/greenpurplesky.jpg
+image: https://sayhellotovanessa.github.io/img/greenpurplesky.jpg
 image-sm:
 ---
 
-*  I was here just to set this env, good luck o/
-*  Proudly committed for the first time
+1.  I was here just to set this env, good luck o/
+2.  Proudly committed for the first time
 3.  Ceci n'est pa un commit
 4.  Let the fun begin
 5.  It is not my fault
