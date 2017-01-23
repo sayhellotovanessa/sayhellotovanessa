@@ -52,7 +52,9 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-      {{ page.content | number_of_words }}
+      <p style="text-align: center; font-size: 0.3em;">
+        {{ page.content | number_of_words }} words were used in this homepage and you found out. Congrats, you are a hacker!
+      </p>
 
       {% if paginator.total_pages > 1 %}
         <div class="pagination">
