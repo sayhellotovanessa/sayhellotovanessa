@@ -20,7 +20,7 @@ layout: default
           {% if node.title != null %}
             {% if node.layout == "page" %}
               <ul>
-                <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+                <a href="{{ node.url }}"><li>{{ node.title }}</li></a>
               </ul>
             {% endif %}
           {% endif %}

@@ -103,7 +103,7 @@ img {
   max-width: 100%;
 }
 
-ul {
+ol, ul {
   margin: 0;
   padding: 0;
 
@@ -126,17 +126,19 @@ ul {
 
 .pages-list {
   margin-top: 200px;
+  position: static;
+  a {
+    color: $color-white;
+  }
 
   li {
     padding: .5em;
-    border: 3px solid;
-    transition: all 0.4s ease-in-out;
-    a {
-      color: $color-white;
-    }
+
   }
   li:hover {
-    background-color: $color-bright;
     color: $color-grey;
+    border-bottom: 2px solid $color-white;
+    transition: border-slide 0.4s ease-in-out;
+
   }
 }
