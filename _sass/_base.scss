@@ -103,7 +103,7 @@ img {
   max-width: 100%;
 }
 
-ol, ul {
+ul {
   margin: 0;
   padding: 0;
 
@@ -122,6 +122,10 @@ ol, ul {
 .fa {
   font-size: 36px !important;
   color: $color-white;
+
+  a:hover {
+    color: $color-alpha--light;
+  }
 }
 
 .pages-list {

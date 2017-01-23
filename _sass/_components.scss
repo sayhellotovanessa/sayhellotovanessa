@@ -413,6 +413,10 @@
     width: 55%;
   }
 
+  .fa {
+    color: $color-bright;
+  }
+
   &__card {
     @include box-shadow(1px);
 
