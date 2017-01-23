@@ -5,8 +5,8 @@ date: 2017-01-10
 categories:
   - Music
 description:
-image: https://sayhellotovanessa.github.io/img/musiccode.jpg
-image-sm: https://sayhellotovanessa.github.io/img/musiccode.jpg
+image: /img/musiccode.jpg
+image-sm: /img/musiccode.jpg
 ---
 2016 has done a good job in bringing back my old passions.I bough an ukulele and started to practice harmonica again. +2 hearts to me. Now I want to have a melodica - because I like unsual instruments that I can easily carry to everywhere, even though I never do. But this year will be THE YEAR.
 To be more at home, of course. I will finally buy a new turntable needle! (yes, this is a new year's resolution).
