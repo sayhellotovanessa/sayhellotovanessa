@@ -72,7 +72,7 @@ Your content goes here (and you must use that old and nice markdown).
 ## Hugo customization and serve
 
 
-Add a theme to your Hugo blog. I am taking the Tropic theme as our example.
+Add a theme to your Hugo blog. I am taking the Beautiful Hugo theme as our example.
 
 `$ git clone https://github.com/halogenica/beautifulhugo.git themes/beauty `
 
@@ -84,3 +84,5 @@ Check your new blog on your browser by typing `http://localhost:1313`.
 
 ![Running new website](/img/hugo-run-0.png)
 _(This image shows another Hugo theme I was testing before, so don`t be disapointed if you get a different Hugo appearance)._
+
+Now you can start messing around your installation. You can build and deploy it in many free hosting services. I did it on Heroku and will write about it.
