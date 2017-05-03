@@ -377,10 +377,12 @@
   h1,
   h2 {
     line-height: 1.2;
+    margin-bottom: 15px;
+    color: $color-alpha;
   }
 
   p:first-child {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   a {
