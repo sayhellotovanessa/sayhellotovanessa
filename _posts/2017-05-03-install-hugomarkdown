@@ -5,8 +5,8 @@ date: 2017-05-01
 categories:
 - Tutorial
 description:
-image: /img/musiccode.jpg
-image-sm: /img/musiccode.jpg
+image: /img/hugobg0.jpg
+image-sm: /img/hugobg0.jpg
 ---
 
 Today I played a little bit with a simple CMS written in Golang. Then I decided to share how to setup your own golang blog locally.
