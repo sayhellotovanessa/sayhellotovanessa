@@ -545,7 +545,11 @@
   }
 }
 
-code {
+pre {
   color: white;
   background: grey;
+
+  code {
+    margin: 10px;
+  }
 }
