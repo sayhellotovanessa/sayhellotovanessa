@@ -439,7 +439,7 @@
 
     @media (min-width: $mq-md) {
       flex-basis: 45%;
-      max-width: 45%;
+      max-width: 25%;
     }
 
     &:after {
@@ -456,8 +456,7 @@
     background-color: $color-white;
 
     @media (min-width: $mq-md) {
-      flex-basis: 55%;
-      max-width: 55%;
+      flex-basis: 100%;
     }
   }
 
