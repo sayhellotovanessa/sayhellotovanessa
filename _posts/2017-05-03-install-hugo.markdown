@@ -5,8 +5,8 @@ date: 2017-05-01
 categories:
 - Tutorial
 description:
-image: /img/hugobg0.jpg
-image-sm: /img/hugobg0.jpg
+image: /img/nathan-anderson-hugo.jpg
+image-sm: /img/nathan-anderson-hugo.jpg
 ---
 
 Today I played a little bit with a simple CMS written in Golang. Then I decided to share how to setup your own golang blog locally.
@@ -26,8 +26,10 @@ Check your version.
 
 I recommend anything higher than version 0.18.
 
+![Folders list](/img/hugobg0.jpg)
 
 ## Creating a Hugo blog locally
+
 
 Let's the fun begin! So you must create a new folder with your new blog name (in this case, Go Hugo).
 
@@ -68,6 +70,7 @@ Your content goes here (and you must use that old and nice markdown).
 ```
 
 ## Hugo customization and serve
+
 
 Add a theme to your Hugo blog. I am taking the Tropic theme as our example.
 
