@@ -66,7 +66,7 @@ date = "2017-01-01T14:11:55+09:00"
 +++
 
 Your content goes here (and you must use that old and nice markdown).
-[There is a cheatset here] (https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+[Cheatset here] (https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 ```
 
 ## Hugo customization and serve
