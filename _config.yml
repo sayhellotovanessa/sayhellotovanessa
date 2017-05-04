@@ -18,7 +18,7 @@ profile_img: /img/eueju.jpg
 profile: Vanessa lives in Stockholm, Sweden. She was born in Porto Alegre, Brazil, where she started enjoying writing instructions to computeres and watching them do precisely the opposite. She also writes about herself in the third person.
 social:
   github: https://github.com/sayhellotovanessa
-  twitter: https://github.com/sayhellotovanessa
+  twitter: https://twitter.com/nessoila
 
 # Build settings
 include: ["_categories"]
